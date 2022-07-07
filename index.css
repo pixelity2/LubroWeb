@@ -1,0 +1,32 @@
+body{
+	background-color: lightskyblue;
+	color: crimson;
+	font-family: cursive;
+	text-align: center;
+}
+button{
+	border-style: solid ;
+	border-color: orange;
+	border-width: 2px;
+	padding: 32px 36px;
+	color: black;
+	font-size: 18px;
+	background-color: lightskyblue;
+}
+button:hover{
+	border-color: red;
+	color: red;
+}
+hr{
+	border-color: red;
+	border-width: 2px;
+}
+.info{
+	background-color: black;
+	font-family: sans-serif;
+
+}
+#email{
+	text-align: left;
+	margin: 30px;
+}
