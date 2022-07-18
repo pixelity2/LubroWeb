@@ -1,17 +1,19 @@
 body{
-	background-color: lightskyblue;
+	background-color: lightpink;
 	color: crimson;
 	font-family: cursive;
 	text-align: center;
+	margin: 0;
 }
 button{
 	border-style: solid ;
 	border-color: orange;
 	border-width: 2px;
-	padding: 32px 36px;
+	padding: 18px 24px;
 	color: black;
 	font-size: 18px;
-	background-color: lightskyblue;
+	background-color: lightyellow;
+	color: darkcyan;
 }
 button:hover{
 	border-color: red;
@@ -22,11 +24,38 @@ hr{
 	border-width: 2px;
 }
 .info{
-	background-color: black;
+	background-color: burlywood;
 	font-family: sans-serif;
 
 }
-#email{
-	text-align: left;
-	margin: 30px;
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: blueviolet;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: burlywood;
+}
+.active{
+  background-color: burlywood;
+  float: right;
+}
+.active:hover{
+  background-color: sandybrown;
+}
+.navbar{
+	font-family: fantasy;
 }
