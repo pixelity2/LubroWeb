@@ -1,7 +1,7 @@
 body{
-	background-color: lightpink;
+	background-color: #99ded5;
 	color: crimson;
-	font-family: cursive;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	margin: 0;
 }
@@ -36,9 +36,6 @@ ul{
   overflow: hidden;
   background-color: antiquewhite;
 }
-li{
-  float: left;
-}
 li a{
   display: block;
   color: blueviolet;
@@ -58,4 +55,36 @@ li a:hover{
 }
 .navbar{
 	font-family: fantasy;
+}
+a{
+	text-decoration: none;
+}
+.review{
+	border: 3px solid #cfabde;
+	width: 350px;
+	text-align: left;
+	float: left;
+	margin: 50px;
+}
+h1{
+	margin: 10px;
+}
+p{
+	margin: 10px;
+}
+.donate{
+	text-align: center;
+	font-size: 20px;
+}
+.dono{
+	text-align: center;
+	background-color: #99ded5;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: device-width;
+	border: 2px solid #2fff00;
 }

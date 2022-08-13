@@ -3,44 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
-    <meta content="utf-8">
+    <meta name="description" content="LubroWeb">
+    <meta name="keywords" content="HTML, tutorial, beginners">
+    <meta name="author" content="Bro Code">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lubro Web - Home</title>
     <link rel="apple-touch-icon" sizes="180x180" href="icon-index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icon-index/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icon-index/favicon-16x16.png">
     <link rel="manifest" href="icon-index/site.webmanifest">
+    <style>
+        .button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Montserrat";
+}
+section {
+  height: 100vh;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+    </style>
 </head>
 <body>
     <div class="navbar">
         <ul>
-      <li><a href="https://discord.gg/4ECAEKzVjw">Discord</a></li>
-      <li><a href="aboutus.html">About us</a></li>
-      <li style="float: right;"><a href="login.html" class="active">Sign in</a></li>
+      <li style="float: left;"><a href="https://discord.gg/4ECAEKzVjw">Discord</a></li>
+      <li style="float: left;"><a href="aboutus.html">About us</a></li> 
     </ul>
         </div>
     <div class="body">
-    <h1>LubroWeb - A paid web creator</h1><hr>
-    <h2>Hello there!</h2>
-    <h2>Wanna create a website just like this </h2>
-    <h2>Or better?!</h2>
-    <h2>With the design you want</h2>
-    <h2>You draw, we create</h2><hr>
-    <h3>Don't believe me? Check out these examples:</h3>
-    <a href="example_website.html"><button>Example 1</button></a>
-    <a href="login.html"><button>LogIn Form</button></a>
+    <h1 style="font-size: 69px;">LubroWeb</h1><br>
+    <div class="img">
+        <img src="web.jpg" alt="">
+    </div>
+    <h1 style="color: #9900ff;">Create a proffesional website. <br>
+    By proffesional web developers <br>
+    Create one for any type of use</h1>
     <br><br>
-        </div><hr>
-        <h3>To create a website, you need to contact us on the email: <br>
-        lubroweb@gmail.com </h3>
-        <hr>
+    <button class="button-5" role="button"><a href="apply.html">Create a website</a></button>
+        </div>
+       <!-- <div class="review">
+            <h1>Zgjim Topojani 5⭐</h1><br>
+            <p style="width:250px;">They made me a website for selling items. It cost me 1.80&euro; and it was pretty fast. I would recommend it to everyone who wants a cheap but great website.</p>
+        </div>
+        --->
+        
+        <section>
+            <h3>Have any questions? Or you want to get in touch with us?<br>
+            Complete this form to do it.</h3><br>
+            <div class="container">
+              <form action="https://formspree.io/f/mvoyorjg" method="POST" id="my-form">
+          
+                <div class="form-group">
+                  <label for="firstName"> First Name</label>
+                  <input type="text" id="firstName" name="firstName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="latsName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+          
+                <div class="form-group">
+                  <label for="massage">Message</label>
+                  <textarea name="massage" id="massage" cols="10" rows="5"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div id="status"></div>
+          </section>
     <div class="info">
         <br>
         <p id="email">Contact us with email if you have any questions:<br>
         lubroweb@outlook.com</p>
         <p id="email">Call us from Monday to Saturday 8AM to 4PM GMT+2:<br>
         +38345722814</p><br>
-        <p>This website was created by Pixelity2 Inc. All right reserved by Pixelity2 Inc.</p><br>
+        <p>This website was created by LubroWeb Inc. 
+        All right reserved by LubroWeb Inc.</p><br>
     </div>
+    <script>window.addEventListener("DOMContentLoaded", function () {
+        // get the form elements defined in your form HTML above
+      
+        var form = document.getElementById("my-form");
+        // var button = document.getElementById("my-form-button");
+        var status = document.getElementById("status");
+      
+        // Success and Error functions for after the form is submitted
+      
+        function success() {
+          form.reset();
+          status.classList.add("success");
+          status.innerHTML = "Thanks!";
+        }
+      
+        function error() {
+          status.classList.add("error");
+          status.innerHTML = "Oops! There was a problem.";
+        }
+      
+        // handle the form submission event
+      
+        form.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          var data = new FormData(form);
+          ajax(form.method, form.action, data, success, error);
+        });
+      });
+      
+      // helper function for sending an AJAX request
+      
+      function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState !== XMLHttpRequest.DONE) return;
+          if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+          } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+          }
+        };
+        xhr.send(data);
+      }
+      </script>
 </body>
 </html>
